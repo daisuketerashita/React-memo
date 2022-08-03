@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 import { List } from "./List";
 import { Form } from "./Form";
+import { Modal } from './components/modal';
 import { getLanguages } from './const/languages';
 import { withLoading } from './hoc/withLoading';
 
